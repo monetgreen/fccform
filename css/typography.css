@@ -1,0 +1,71 @@
+body,
+textarea {
+    font-family: "nimbus-sans", sans-serif;
+    font-size: 16px;
+}
+
+h1 {
+    font-family: "hatch", serif;
+    font-style: italic;
+    font-size: 64px;
+}
+
+input,
+button,
+select,
+.radio-label,
+.checkbox-label {
+    font-family: "hatch", serif;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.check-all {
+    font-style: italic;
+    font-size: 14px;
+}
+
+@media (max-width: 670px) {
+    body,
+    textarea {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 48px;
+    }
+    input,
+    button,
+    select,
+    .radio-label,
+    .checkbox-label {
+        font-size: 20px;
+    }
+    .check-all {
+        font-size: 12px;
+    }
+}
+
+/*
+Hatch Light Italic
+font-family: hatch, serif;
+font-weight: 300;
+font-style: italic;
+
+
+Hatch Light
+font-family: hatch, serif;
+font-weight: 300;
+font-style: normal;
+
+
+Hatch Bold Italic
+font-family: hatch, serif;
+font-weight: 700;
+font-style: italic;
+
+
+Hatch Bold
+font-family: hatch, serif;
+font-weight: 700;
+font-style: normal;
+*/

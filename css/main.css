@@ -1,0 +1,168 @@
+body {
+  color: #132D8B;
+  background-color: #FFFBF6;
+}
+
+.container {
+  max-width: 1200px;
+  padding: 100px 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.left-col {
+  max-width: 430px;
+  position: fixed;
+}
+
+.right-col {
+  max-width: 100%;
+  margin-left: 530px;
+}
+
+h1 {
+  margin: 0;
+}
+
+.text-input {
+  background: none;
+  border: none;
+  color: #132D8B;
+  padding: 0 0 4px 0px;
+  width: 100%;
+  border-bottom: 2px solid #132D8B;
+}
+
+select {
+  background: none;
+  border: none;
+  color: #132D8B;
+  padding: 4px;
+  width: 100%;
+  border: 2px solid #132D8B;
+}
+
+select:invalid {
+  color: rgba(19, 45, 139, 0.3);
+}
+
+::placeholder {
+  opacity: .3;
+  text-indent: 4px;
+}
+
+#name-label,
+#number-label,
+#email-label {
+  margin-top: 5px;
+  padding-left: 5px;
+  display: block;
+}
+
+.name,
+.age,
+.email {
+  margin-bottom: 15px;
+}
+
+.intro-line {
+  display: flex;
+  width: 100%
+}
+
+.name {
+  width: 80%;
+}
+
+.age {
+  width: 20%;
+  margin-left: 20px;
+}
+
+
+
+#dropdown,
+.recommend,
+.improvements,
+.comment {
+  margin-bottom: 40px;
+}
+
+.recommend p,
+.improvements p,
+.comment p {
+  margin-bottom: 10px;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.improvements div {
+  margin-bottom: 5px;
+}
+
+textarea {
+  background: none;
+  border: 2px solid #132D8B;
+  color: #132D8B;
+  width: 100%;
+  box-sizing: border-box;
+  height: 170px;
+}
+
+button {
+  background: none;
+  border: 2px solid #132D8B;
+  color: #132D8B;
+  width: 100%;
+  padding: 5px;
+  transition: all 0.3s;
+}
+
+button:hover {
+  color: #FFFBF6;
+  background-color: #132D8B;
+}
+
+@media (max-width: 1220px) {
+  .container {
+    padding: 70px;
+  }
+  .left-col {
+    max-width: 370px;
+  }
+  .right-col {
+    margin-left: 430px;
+  }
+}
+
+@media (max-width: 1010px) {
+  .container {
+    padding: 120px;
+  }
+  .left-col {
+    position: static;
+    max-width: 100%;
+    margin-bottom: 70px;
+  }
+  .right-col {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 650px) {
+  .container {
+    padding: 20px;
+  }
+  .left-col {
+    margin-bottom: 40px;
+  }
+  .radio-buttons {
+    flex-direction: column;
+  }
+  .radio-buttons div {
+    margin-bottom: 5px;
+  }
+}
